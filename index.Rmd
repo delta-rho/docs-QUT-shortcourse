@@ -13,7 +13,7 @@ brand: |-
 
 # Tessera Short Course #
 
-This is the landing page for the short course "Analysis and Visualization of Large Complex Data with Tessera" that will be given at Queensland University of Technology on February 17, 2016 from 9am to 5pm.
+This is the landing page for the short course "Analysis and Visualization of Large Complex Data with Tessera" that will be given at Queensland University of Technology on February 17, 2016 from 9am to 5pm.  It will be very similar to a short course given last October at UTS.
 
 <!-- ## Slides ##
 
