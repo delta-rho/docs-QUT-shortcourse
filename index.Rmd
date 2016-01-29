@@ -44,7 +44,7 @@ Due to the number of registerants, to avoid network issues at the tutorial and t
       "housingData", "lubridate"))
     ```
 
-4. Download and unzip the data and code examples: [http://ml.stat.purdue.edu/uts2015/tessera_shortcourse.zip](http://ml.stat.purdue.edu/uts2015/tessera_shortcourse.zip).
+4. Download and unzip the data and code examples: [http://ml.stat.purdue.edu/qut2015/tessera_shortcourse.zip](http://ml.stat.purdue.edu/qut2015/tessera_shortcourse.zip).
 
 To test your installation, you can load R and try the following commands:
 
