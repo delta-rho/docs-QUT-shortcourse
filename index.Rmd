@@ -1,5 +1,5 @@
 ---
-title: "Tessera Short Course at UTS"
+title: "Tessera Short Course at QUT"
 author: Tessera
 copyright: Tessera
 output:
@@ -13,17 +13,18 @@ brand: |-
 
 # Tessera Short Course #
 
-This is the landing page for the short course "Analysis and Visualization of Large Complex Data with Tessera" that will be given at University of Technology Sydney on October 13, 2015 from 9am to 5pm.
+This is the landing page for the short course "Analysis and Visualization of Large Complex Data with Tessera" that will be given at Queensland University of Technology on February 17, 2016 from 9am to 5pm.
 
-## Slides ##
+<!-- ## Slides ##
 
 The slides for the short course are located here: [http://slides.com/hafen/tessera-uts2015/](http://slides.com/hafen/tessera-uts2015/).
 
 To follow along and stay on the same slide as the presenter, visit this link: [http://slides.com/hafen/tessera-uts2015/live](http://slides.com/hafen/tessera-uts2015/live).
+ -->
 
 ## Download Tutorial Materials ##
 
-To avoid network issues at the tutorial and to help get things started off smoothly, please download the required packages and data sets listed below prior to the tutorial.
+Due to the number of registerants, to avoid network issues at the tutorial and to help get things started off smoothly, please download the required packages and data sets listed below prior to the tutorial.
 
 1. If you do not already have the most recent version of R, (version 3.2), please [download](http://cran.r-project.org) and install it.
 
