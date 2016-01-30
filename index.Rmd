@@ -62,6 +62,10 @@ housing %>%
 
 This should bring up an interactive trelliscope display in your web browser.
 
+## Optional Setup ##
+
+While all of the hands-on examples have been designed to work on your laptop, we will provide an example of running on a cluster on Amazon Web Services.  This will mainly be a demonstration, but if you would like to follow along, you can visit [here](https://github.com/tesseradata/install-emr) to get an account with AWS set up.  Note that this may require some advanced knowledge of using a terminal, etc.
+
 ## Additional Reading Material ##
 
 If you want to read up on any of the Tessera components prior to the tutorial, you can look at the [references section on tessera.io](http://tessera.io/#references).
