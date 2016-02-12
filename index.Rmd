@@ -17,9 +17,9 @@ This is the landing page for the short course "Analysis and Visualization of Lar
 
 <!-- ## Slides ##
 
-The slides for the short course are located here: [http://slides.com/hafen/tessera-uts2015/](http://slides.com/hafen/tessera-uts2015/).
+The slides for the short course are located here: [http://slides.com/hafen/tessera-qut2016/](http://slides.com/hafen/tessera-qut2016/).
 
-To follow along and stay on the same slide as the presenter, visit this link: [http://slides.com/hafen/tessera-uts2015/live](http://slides.com/hafen/tessera-uts2015/live).
+To follow along and stay on the same slide as the presenter, visit this link: [http://slides.com/hafen/tessera-qut2016/live](http://slides.com/hafen/tessera-qut2016/live).
  -->
 
 ## Download Tutorial Materials ##
@@ -44,7 +44,7 @@ Due to the number of registerants, to avoid network issues at the tutorial and t
       "housingData", "lubridate"))
     ```
 
-4. Download and unzip the data and code examples: [http://ml.stat.purdue.edu/qut2015/tessera_shortcourse.zip](http://ml.stat.purdue.edu/qut2015/tessera_shortcourse.zip).
+4. Download and unzip the data and code examples: [http://ml.stat.purdue.edu/qut2016/tessera_shortcourse.zip](http://ml.stat.purdue.edu/qut2016/tessera_shortcourse.zip).
 
 To test your installation, you can load R and try the following commands:
 
