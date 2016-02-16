@@ -9,7 +9,7 @@ if(!require("datadr"))
   devtools::install_github("tesseradata/datadr")
 
 # make sure your working directory is set to repo base directory
-code_path <- "~/Documents/Code/Tessera/hafen/docs-QUT-shortcourse"
+code_path <- "~/Documents/Code/Tessera/docs-QUT-shortcourse"
 setwd(code_path)
 
 knitr::opts_knit$set(root.dir = normalizePath("."))

@@ -33,19 +33,12 @@ Due to the number of registerants, to avoid network issues at the tutorial and t
 3. Open R and execute the following commands to install Tessera and other libraries you'll need for the tutorials:
 
     ```r
-    options(repos = c(tessera = "http://packages.tessera.io",
-      getOption("repos")))
-
-    # also try this if packages.tessera.io isn't working:
-    # options(repos = c(tessera = "http://ml.stat.purdue.edu/packages/",
-    #  getOption("repos")))
+    options(repos = c(CRAN = "http://cran.rstudio.com/", tessera = "http://packages.tessera.io"))
 
     install.packages(c("datadr", "trelliscope", "rbokeh",
       "housingData", "lubridate"))
-    ```
 
-<!--     ```r
-    # in a new R session
+    # if this doesn't work, try this (in a new R session)
     if(!require(devtools))
       install.packages("devtools")
 
@@ -56,8 +49,6 @@ Due to the number of registerants, to avoid network issues at the tutorial and t
 
     install.packages("lubridate")
     ```
- -->
-
 
 4. Download and unzip the data and code examples: [http://ml.stat.purdue.edu/qut2016/tessera_shortcourse.zip](http://ml.stat.purdue.edu/qut2016/tessera_shortcourse.zip).
 

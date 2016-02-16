@@ -73,31 +73,22 @@
 <li><p>If you do not already have the most recent version of R, (version 3.2), please <a href="http://cran.r-project.org">download</a> and install it.</p></li>
 <li><p>You will need a recent version of the Firefox or Chrome browser installed on your computer.</p></li>
 <li><p>Open R and execute the following commands to install Tessera and other libraries you’ll need for the tutorials:</p>
-<pre class="r"><code>options(repos = c(tessera = &quot;http://packages.tessera.io&quot;,
-  getOption(&quot;repos&quot;)))
-
-# also try this if packages.tessera.io isn&#39;t working:
-# options(repos = c(tessera = &quot;http://ml.stat.purdue.edu/packages/&quot;,
-#  getOption(&quot;repos&quot;)))
+<pre class="r"><code>options(repos = c(CRAN = &quot;http://cran.rstudio.com/&quot;, tessera = &quot;http://packages.tessera.io&quot;))
 
 install.packages(c(&quot;datadr&quot;, &quot;trelliscope&quot;, &quot;rbokeh&quot;,
-  &quot;housingData&quot;, &quot;lubridate&quot;))</code></pre></li>
-</ol>
-<!--     ```r
-    # in a new R session
-    if(!require(devtools))
-      install.packages("devtools")
+  &quot;housingData&quot;, &quot;lubridate&quot;))
 
-    devtools::install_github("tesseradata/datadr")
-    devtools::install_github("tesseradata/trelliscope")
-    devtools::install_github("bokeh/rbokeh")
-    devtools::install_github("hafen/housingData")
+# if this doesn&#39;t work, try this (in a new R session)
+if(!require(devtools))
+  install.packages(&quot;devtools&quot;)
 
-    install.packages("lubridate")
-    ```
- -->
-<ol start="4" style="list-style-type: decimal">
-<li>Download and unzip the data and code examples: <a href="http://ml.stat.purdue.edu/qut2016/tessera_shortcourse.zip"><a href="http://ml.stat.purdue.edu/qut2016/tessera_shortcourse.zip" class="uri">http://ml.stat.purdue.edu/qut2016/tessera_shortcourse.zip</a></a>.</li>
+devtools::install_github(&quot;tesseradata/datadr&quot;)
+devtools::install_github(&quot;tesseradata/trelliscope&quot;)
+devtools::install_github(&quot;bokeh/rbokeh&quot;)
+devtools::install_github(&quot;hafen/housingData&quot;)
+
+install.packages(&quot;lubridate&quot;)</code></pre></li>
+<li><p>Download and unzip the data and code examples: <a href="http://ml.stat.purdue.edu/qut2016/tessera_shortcourse.zip"><a href="http://ml.stat.purdue.edu/qut2016/tessera_shortcourse.zip" class="uri">http://ml.stat.purdue.edu/qut2016/tessera_shortcourse.zip</a></a>.</p></li>
 </ol>
 <p>To test your installation, you can load R and try the following commands:</p>
 <pre class="r"><code>library(trelliscope)
