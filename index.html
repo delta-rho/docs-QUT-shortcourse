@@ -61,12 +61,11 @@
 <div id="tessera-short-course" class="section level1">
 <h1>Tessera Short Course</h1>
 <p>This is the landing page for the short course “Analysis and Visualization of Large Complex Data with Tessera” that will be given at Queensland University of Technology on February 17, 2016 from 9am to 5pm. It will be very similar to a short course given last October at UTS.</p>
-<!-- ## Slides ##
-
-The slides for the short course are located here: [http://slides.com/hafen/tessera-qut2016/](http://slides.com/hafen/tessera-qut2016/).
-
-To follow along and stay on the same slide as the presenter, visit this link: [http://slides.com/hafen/tessera-qut2016/live](http://slides.com/hafen/tessera-qut2016/live).
- -->
+<div id="slides" class="section level2">
+<h2>Slides</h2>
+<p>The slides for the short course are located here: <a href="http://slides.com/hafen/tessera-qut2016/"><a href="http://slides.com/hafen/tessera-qut2016/" class="uri">http://slides.com/hafen/tessera-qut2016/</a></a>.</p>
+<p>To follow along and stay on the same slide as the presenter, visit this link: <a href="http://slides.com/hafen/tessera-qut2016/live"><a href="http://slides.com/hafen/tessera-qut2016/live" class="uri">http://slides.com/hafen/tessera-qut2016/live</a></a>.</p>
+</div>
 <div id="download-tutorial-materials" class="section level2">
 <h2>Download Tutorial Materials</h2>
 <p>Due to the number of registerants, to avoid network issues at the tutorial and to help get things started off smoothly, please download the required packages and data sets listed below prior to the tutorial.</p>
@@ -83,7 +82,22 @@ To follow along and stay on the same slide as the presenter, visit this link: [h
 
 install.packages(c(&quot;datadr&quot;, &quot;trelliscope&quot;, &quot;rbokeh&quot;,
   &quot;housingData&quot;, &quot;lubridate&quot;))</code></pre></li>
-<li><p>Download and unzip the data and code examples: <a href="http://ml.stat.purdue.edu/qut2016/tessera_shortcourse.zip"><a href="http://ml.stat.purdue.edu/qut2016/tessera_shortcourse.zip" class="uri">http://ml.stat.purdue.edu/qut2016/tessera_shortcourse.zip</a></a>.</p></li>
+</ol>
+<!--     ```r
+    # in a new R session
+    if(!require(devtools))
+      install.packages("devtools")
+
+    devtools::install_github("tesseradata/datadr")
+    devtools::install_github("tesseradata/trelliscope")
+    devtools::install_github("bokeh/rbokeh")
+    devtools::install_github("hafen/housingData")
+
+    install.packages("lubridate")
+    ```
+ -->
+<ol start="4" style="list-style-type: decimal">
+<li>Download and unzip the data and code examples: <a href="http://ml.stat.purdue.edu/qut2016/tessera_shortcourse.zip"><a href="http://ml.stat.purdue.edu/qut2016/tessera_shortcourse.zip" class="uri">http://ml.stat.purdue.edu/qut2016/tessera_shortcourse.zip</a></a>.</li>
 </ol>
 <p>To test your installation, you can load R and try the following commands:</p>
 <pre class="r"><code>library(trelliscope)
